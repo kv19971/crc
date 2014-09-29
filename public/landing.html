@@ -1,0 +1,85 @@
+<htmL>
+<head>
+<link rel='stylesheet' href="styles/bootstrap.min.css" />
+<style type='text/css'>
+	body{
+		margin:0;
+		padding:0;
+		background:url('bg_crc.jpg') no-repeat center;
+		background-size: 100% 100%;
+		color:#f8f8ff;
+	}
+	#wspace{
+		height: 35px;
+	}
+	#lp_title{
+		padding:10px 15px;
+		text-align:center;
+		font-weight:bold;
+		font-size:48px;
+	}
+	#lp_stitle{
+		padding:5px 8px;
+		text-align:center;
+		font-size:32px;
+	}
+	input{
+		-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px; /* future proofing */
+-khtml-border-radius: 4px;
+border:2px solid #054E71;
+	}
+	.text{
+		width:100%;
+		font-size:20px;
+		padding:5px;
+		
+		
+	}
+	.text:focus{
+		border:2px solid #9AC81F;
+	}
+	.button{
+		width:100%;
+		font-size:21px;
+		padding:3px;
+		background:#9AC81F;
+	}
+	.button:hover{
+		background:#FFDC19;
+		border:2px solid #9AC81F;
+	}
+</style>
+</head>
+<body>
+<div class='containter'>
+<div class='row' >
+
+</div>
+<div class='row'>
+<div class='col-md-3'></div>
+<div class='col-md-6'><div id='lp_title'>Something Something</div></div>
+<div class='col-md-3'></div>
+</div>
+<div class='row'>
+<div class='col-md-3'></div>
+<div class='col-md-6'><div id='lp_stitle'>Something Something else</div></div>
+<div class='col-md-3'></div>
+</div>
+<div class='row'>
+<div class='col-md-2'></div>
+<form action='' method='POST'>
+<div class='col-md-3'><input class='text' type='text' name='uid' Placeholder='User ID'/></div>
+<div class='col-md-3'><input class='text' type='password' name='uid' Placeholder='Password'/></div>
+<div class='col-md-2'><input type='submit' class='button' value='Sign In'/></div>
+<div class='col-md-1'></div>
+</form>
+</div>
+<div class='row'>
+<div class='col-md-12'><div id='nom'>Not a member? <a href="<?php echo SERVER_ROOT_ONLY.'register'; ?>">Sign Up!</a></div></div>
+</div>
+</div>
+</body>
+
+</html>
