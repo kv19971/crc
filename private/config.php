@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-//define('SERVER_ROOT', 'localhost/pagedfinal');
+//define('SERVER_ROOT', 'localhost/critiq/');
 
 //define('SITE_ROOT', 'www.paged.in/pagedfinal');
 define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/critiq/');
