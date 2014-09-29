@@ -9,8 +9,8 @@
 //define('SERVER_ROOT', 'localhost/pagedfinal');
 
 //define('SITE_ROOT', 'www.paged.in/pagedfinal');
-define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/crc/');
-define('SERVER_ROOT_ONLY', '/crc/');
+define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/critiq/');
+define('SERVER_ROOT_ONLY', '/critiq/');
 
 define('CMN', SERVER_ROOT.'private/common.php');
 define('LIBS', SERVER_ROOT.'private/libs/');
