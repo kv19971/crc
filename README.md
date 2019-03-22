@@ -1,4 +1,4 @@
-# critiq
+# social network for traders
 
 IB Computer Science HL Coursework - Social network for investors
 
